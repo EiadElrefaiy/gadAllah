@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	    <style>
+      /* start loading-overlay */
+.loading-overlay { 
+	left: 0;
+	top: 0;
+	position: fixed;
+	height: 100%; 
+	width: 100%; 
+	background-color: #FFF;
+	color: #f5f5f5; 
+	z-index: 99999; 
+}
+@-webkit-keyframes heart-beat {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes heart-beat {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-o-keyframes heart-beat {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes heart-beat {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.pulse {
+	display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: heart-beat 2s linear infinite;
+  -moz-animation: heart-beat 2s linear infinite;
+  -o-animation: heart-beat 2s linear infinite;
+  -ms-animation: heart-beat 2s linear infinite;
+  animation: heart-beat 2s linear infinite;
+}
+.pulse img {
+  width: 100px !important;
+  padding-top: 25%;
+}
+
+/* end loading-overlay */
+    </style>
+	<title>Gadallah</title>
+</head>
+<body>
+  <!-- start loading -->
+    <section class="loading-overlay">
+      <div class="pulse"><img src="img/logo.png" alt=""></div>
+    </section>
+    <!-- end loading -->
+
+	<header class="cd-header">
+		<div class="cd-logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+
+		<!-- <nav>
+			<ul class="cd-secondary-nav">
+				<li><a href="#0">Log In</a></li>
+				<li><a href="#0">Register</a></li>
+			</ul>
+		</nav> -->
+		 <!-- cd-nav -->
+
+		<a class="cd-primary-nav-trigger" href="#0">
+			<span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+		</a> <!-- cd-primary-nav-trigger -->
+	</header>
+
+	<nav>
+		<ul class="cd-primary-nav">
+			<li><a href="index.html">Home</a></li>
+
+			<li class="cd-label">Gadallah</li>
+
+			<li><a href="#0">About us</a></li>
+			<li><a href="#0">Our services</a></li>
+			<li><a href="#0">Contact Us</a></li>
+
+			<li class="cd-label">Ecomatic</li>
+
+			<li><a href="category.html">Oven</a></li>
+			<li><a href="category.html">Hoods</a></li>
+			<li><a href="category.html">Hobs</a></li>
+
+			<li class="cd-label">Pompain</li>
+
+			<li><a href="category-1.html">Oven</a></li>
+			<li><a href="category-1.html">Hoods</a></li>
+			<li><a href="category-1.html">Hobs</a></li>
+
+			<li class="cd-label">Follow us</li>
+			
+			<li class="cd-social cd-facebook"><a href="#0">Facebook</a></li>
+			<li class="cd-social cd-instagram"><a href="#0">Instagram</a></li>
+			<li class="cd-social cd-dribbble"><a href="#0">Dribbble</a></li>
+			<li class="cd-social cd-twitter"><a href="#0">Twitter</a></li>
+		</ul>
+	</nav>
+
+  <div class="intro-wrapper">
+    <section class="cd-intro">
+      <h1>Category</h1>
+    </section>
+  </div>
+	
+
+	<main class="cd-main-content">
+    <div class="full-width">
+      <section class="container clearfix product-1-bg"> 
+			  <div class="row">
+          <div class="col-60">
+            <div class="product-section">
+              <h1>Product Name</h1>
+              <p class="weirdtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. </p>
+              <a href="#" class="btn-circle">Read More</a>
+            </div>
+          </div>
+          <div class="col-40">
+            <div class="pinned">
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/1.jpg" alt="">
+                </a>
+              </div>
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/2.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container clearfix product-2-bg"> 
+			  <div class="row">
+          <div class="col-60">
+            <div class="product-section">
+              <h1>Product Name</h1>
+              <p class="weirdtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. </p>              <a href="#" class="btn-circle">Read More</a>
+            </div>
+          </div>
+          <div class="col-40">
+            <div class="pinned">
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/1.jpg" alt="">
+                </a>
+              </div>
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/2.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container clearfix product-3-bg"> 
+			  <div class="row">
+          <div class="col-60">
+            <div class="product-section">
+              <h1>Product Name</h1>
+              <p class="weirdtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. </p>              <a href="#" class="btn-circle">Read More</a>
+            </div>
+          </div>
+          <div class="col-40">
+            <div class="pinned">
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/1.jpg" alt="">
+                </a>
+              </div>
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/2.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container clearfix product-4-bg"> 
+			  <div class="row">
+          <div class="col-60">
+            <div class="product-section">
+              <h1>Product Name</h1>
+              <p class="weirdtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor dolore molestiae culpa impedit, perferendis soluta aut amet commodi itaque quas perspiciatis dicta sed fugiat cupiditate, ducimus omnis nihil veniam maiores. </p>              <a href="#" class="btn-circle">Read More</a>
+            </div>
+          </div>
+          <div class="col-40">
+            <div class="pinned">
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/1.jpg" alt="">
+                </a>
+              </div>
+              <div class="product-img-box">
+                <a href="#">
+                  <img src="img/portfolio/2.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+	</main>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.pin.min.js"></script>
+
+
+    <!-- PIN ALL THE THINGS! -->
+    <script>
+      $(".pinned").pin({containerSelector: ".container", minWidth: 940});
+
+    
+    </script>
+    <!-- That's all - pretty easy, right? -->
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script>
+	// loading screen
+	$(window).load(function(){  
+		$(".loading-overlay .pulse").fadeOut(2000, function() {
+				$(this).parent().fadeOut(2000,  function() {
+						$("body").css("overflow","auto")  
+						$(this).remove();  
+					});  
+			});  
+	});
+</script>
+</body>
+</html>
